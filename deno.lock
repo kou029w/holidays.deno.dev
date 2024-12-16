@@ -1,0 +1,108 @@
+{
+  "version": "4",
+  "specifiers": {
+    "npm:date-holidays@*": "3.23.14",
+    "npm:date-holidays@^3.23.14": "3.23.14",
+    "npm:hono@*": "4.5.2",
+    "npm:hono@^4.6.14": "4.6.14",
+    "npm:ical-generator@*": "8.0.1",
+    "npm:ical-generator@^8.0.1": "8.0.1"
+  },
+  "npm": {
+    "argparse@2.0.1": {
+      "integrity": "sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q=="
+    },
+    "astronomia@4.1.1": {
+      "integrity": "sha512-TcJD9lUC5eAo0/Ji7rnQauX/yQbi0yZWM+JsNr77W3OA5fsrgvuFgubLMFwfw4VlZ29cu9dG/yfJbfvuTSftjg=="
+    },
+    "caldate@2.0.5": {
+      "integrity": "sha512-JndhrUuDuE975KUhFqJaVR1OQkCHZqpOrJur/CFXEIEhWhBMjxO85cRSK8q4FW+B+yyPq6GYua2u4KvNzTcq0w==",
+      "dependencies": [
+        "moment-timezone"
+      ]
+    },
+    "date-bengali-revised@2.0.2": {
+      "integrity": "sha512-q9iDru4+TSA9k4zfm0CFHJj6nBsxP7AYgWC/qodK/i7oOIlj5K2z5IcQDtESfs/Qwqt/xJYaP86tkazd/vRptg=="
+    },
+    "date-chinese@2.1.4": {
+      "integrity": "sha512-WY+6+Qw92ZGWFvGtStmNQHEYpNa87b8IAQ5T8VKt4wqrn24lBXyyBnWI5jAIyy7h/KVwJZ06bD8l/b7yss82Ww==",
+      "dependencies": [
+        "astronomia"
+      ]
+    },
+    "date-easter@1.0.3": {
+      "integrity": "sha512-aOViyIgpM4W0OWUiLqivznwTtuMlD/rdUWhc5IatYnplhPiWrLv75cnifaKYhmQwUBLAMWLNG4/9mlLIbXoGBQ=="
+    },
+    "date-holidays-parser@3.4.6": {
+      "integrity": "sha512-qTuO7061IOyOAafjuKJIld4pBe5BhjdKyAayUgoYBaB+7aFnsdraeDLBS0WJpCALcw/RqyG8emoFuSgirW+c7w==",
+      "dependencies": [
+        "astronomia",
+        "caldate",
+        "date-bengali-revised",
+        "date-chinese",
+        "date-easter",
+        "deepmerge",
+        "jalaali-js",
+        "moment-timezone"
+      ]
+    },
+    "date-holidays@3.23.14": {
+      "integrity": "sha512-KSYj5VkprA81ojdVkoyIBn9uHYPs9LAZt/iUiYBpICJ2/HkWI/OV9pfYl+MqZSBRtS0aLU3RE0Rc6heTuzcM3Q==",
+      "dependencies": [
+        "date-holidays-parser",
+        "js-yaml",
+        "lodash",
+        "prepin"
+      ]
+    },
+    "deepmerge@4.3.1": {
+      "integrity": "sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A=="
+    },
+    "hono@4.5.2": {
+      "integrity": "sha512-93P8XEALrHAUGRZoqXs8MDL3w9mDgRpbW9Sy5x4LS7srg78bKUw7EGynxze+Ft1e/rLGmDAbxeSTMu6dHUSRDw=="
+    },
+    "hono@4.6.14": {
+      "integrity": "sha512-j4VkyUp2xazGJ8eCCLN1Vm/bxdvm/j5ZuU9AIjLu9vapn2M44p9L3Ktr9Vnb2RN2QtcR/wVjZVMlT5k7GJQgPw=="
+    },
+    "ical-generator@8.0.1": {
+      "integrity": "sha512-D7D0HPdjg8dEVTyN3QM95sioJj5/6TPj9wetrpt16tzszVgTIXHSSlreTsLuSSQpF61EdVxxTwYS9TVWr7vF0g==",
+      "dependencies": [
+        "uuid-random"
+      ]
+    },
+    "jalaali-js@1.2.7": {
+      "integrity": "sha512-gE+YHWSbygYAoJa+Xg8LWxGILqFOxZSBQQw39ghel01fVFUxV7bjL0x1JFsHcLQ3uPjvn81HQMa+kxwyPWnxGQ=="
+    },
+    "js-yaml@4.1.0": {
+      "integrity": "sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==",
+      "dependencies": [
+        "argparse"
+      ]
+    },
+    "lodash@4.17.21": {
+      "integrity": "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
+    },
+    "moment-timezone@0.5.46": {
+      "integrity": "sha512-ZXm9b36esbe7OmdABqIWJuBBiLLwAjrN7CE+7sYdCCx82Nabt1wHDj8TVseS59QIlfFPbOoiBPm6ca9BioG4hw==",
+      "dependencies": [
+        "moment"
+      ]
+    },
+    "moment@2.30.1": {
+      "integrity": "sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how=="
+    },
+    "prepin@1.0.3": {
+      "integrity": "sha512-0XL2hreherEEvUy0fiaGEfN/ioXFV+JpImqIzQjxk6iBg4jQ2ARKqvC4+BmRD8w/pnpD+lbxvh0Ub+z7yBEjvA=="
+    },
+    "uuid-random@1.3.2": {
+      "integrity": "sha512-UOzej0Le/UgkbWEO8flm+0y+G+ljUon1QWTEZOq1rnMAsxo2+SckbiZdKzAHHlVh6gJqI1TjC/xwgR50MuCrBQ=="
+    }
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:date-holidays@^3.23.14",
+      "npm:hono@^4.6.14",
+      "npm:ical-generator@^8.0.1"
+    ]
+  }
+}
